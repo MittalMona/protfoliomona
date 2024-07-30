@@ -1,0 +1,478 @@
+*{
+ margin: 0;
+ padding: 0;
+ font-family: sans-serif;
+}
+.main{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(5, 5, 5);
+
+
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+nav ul li{
+    display: inline-block;
+    color: rgb(232, 181, 115);
+    margin: 0 20px ;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: burlywood;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: rgb(228, 219, 208);
+    box-shadow: 0 0 5px  rgb(138, 74, 74),
+    0 0 25px  rgb(138, 74, 74), 0 0 50px  rgb(138, 74, 74),
+    0 0 100px  rgb(138, 74, 74), 0 0 200px  rgb(138, 74, 74)
+}
+nav img{
+    margin-top: 0;
+
+}
+.detail{
+    color: burlywood;
+    margin-top: 12%;
+    margin-left: 7%;
+   
+    
+    
+}
+.detail h1{
+    font-size: 50px;
+    margin-bottom: 3%;
+}
+.detail h1 span{
+    color: rgb(152, 98, 33);
+}
+.detail h2{
+    margin-left: 38px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 3%;
+    
+
+}
+.detail h2 span{
+    font-size: 40px;
+    font-weight: bolder;
+    
+}
+.detail> :nth-child(3) {
+    font-weight: 200;
+    font-size: 20px;
+    margin-left: 190px;
+    margin-bottom: 1%;
+    position: relative;
+    z-index: 20;
+}
+.detail> :nth-child(4) {
+font-weight: 200;
+font-size: 20px;
+margin-left: -10px;
+position: relative;
+z-index: 20;
+margin-bottom: 1%;
+
+}
+.detail> :nth-child(5) {
+    font-weight: 200;
+    font-size: 20px;
+    margin-left: 130px;
+    position: relative;
+    z-index: 20;
+}
+.icons{
+    margin-left: 330px;
+   
+}
+.icons a{
+    color: rgb(185, 129, 56);
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 31px;
+    height: 31px;
+    box-sizing: border-box;
+    border: 2px solid rgb(190, 166, 121);
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 28px 15px 30px 0;
+    font-size: 23px;
+    
+    
+
+}
+
+.icons a:hover{
+    box-shadow: 0 0 5px  rgb(138, 74, 74),
+    0 0 25px  rgb(138, 74, 74), 0 0 50px  rgb(138, 74, 74),
+    0 0 100px  rgb(138, 74, 74), 0 0 200px  rgb(138, 74, 74)
+}
+
+
+.mine{
+   width: 40%;
+   position: absolute;
+   bottom: 94%;
+   right: 60px;
+
+}
+.mine img{
+      position: absolute;
+       left: 50%;
+       transform: translate(-50%);
+       transition: bottom 1s,left 1s;
+       top: 10%;
+}
+.btn{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 3px solid rgb(220, 193, 142);
+    margin-left: 24%;
+    border-radius: 15px;
+    background-color: rgb(177, 117, 38);
+}
+.btn a{
+    display: inline-block;
+    color: rgb(55, 37, 14);
+    padding: 12px 28px;
+}
+.btn-box:hover{
+    box-shadow: 0 0 5px  rgb(138, 74, 74),
+    0 0 25px  rgb(138, 74, 74), 0 0 50px  rgb(138, 74, 74),
+    0 0 100px  rgb(138, 74, 74), 0 0 200px  rgb(138, 74, 74)
+}
+
+
+.service{
+    
+    color: aliceblue;
+}
+.contain{
+    margin-top: 5%;
+    margin-bottom: 3%;
+    font-size: 50px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+
+    
+}
+.contain span{
+    color: rgb(158, 115, 59);
+}
+.title{
+    color: rgb(188, 125, 43);
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+.list{
+    display: flex;
+    margin-top: 50px;
+
+}
+
+.first{
+    margin-left: 70px;
+
+}
+.second{
+    margin-left: 70px;
+}
+.third{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.list div{
+    padding: 40px ;
+    font-size: 15px;
+    border-radius: 20px;
+    border-right: 10px;
+    
+    box-shadow: 1px 1px 20px rgb(230, 175, 104),
+              1px 1px 30px  rgb(230, 175, 104);
+              
+
+}
+.list div i{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.list div a{
+    margin-top: 30px;
+    color: bisque;
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+.list div p{
+    margin-bottom: 30px;
+}
+.list div a:hover{
+    box-shadow: 0 0 5px  rgb(138, 74, 74),
+    0 0 25px  rgb(138, 74, 74), 0 0 50px  rgb(138, 74, 74),
+    0 0 100px  rgb(138, 74, 74), 0 0 200px  rgb(138, 74, 74)
+}
+
+.read{
+    display: inline-block;
+    padding: 15px 28px;
+    width: 100px;
+    height: 25px;
+    border-radius: 40px;
+    background-color: rgb(177, 117, 38);
+}
+
+.info{
+    color: aliceblue;
+}
+
+
+.tech{
+    display: flex;
+    
+    margin-top: 50px;
+
+}
+
+
+.tech div{
+    padding: 30px ;
+    font-size: 15px;
+    border-radius: 20px;
+    border-right: 10px;
+    
+    box-shadow: 1px 1px 10px rgb(230, 175, 104),
+              1px 1px 20px  rgb(230, 175, 104);
+
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(201, 160, 106);
+    font-size: 40px;
+    margin-bottom: 2%;
+}
+
+
+.progress-line-html span{
+    
+    color: burlywood;
+}
+    
+
+
+.progress-line-css span{
+    color: burlywood;
+}
+
+.progress-line-javascript span{
+    color: burlywood;
+}
+
+
+.progress-line-c span{
+    color: burlywood;
+}
+
+.progress-line-figma span{
+    color: burlywood;
+}
+   
+
+.info span{
+    font-size: 24px;
+    font-weight: bold;
+    color: bisque;
+}
+
+
+.bar{
+    margin-left: 20px;
+
+}
+
+.bar-first{
+    
+    position: relative;
+    top: 80px; left: 20px;
+}
+
+
+.bar-sec{
+    margin-left: 40px;
+}
+
+
+.bar-thi{
+    
+    position: relative;
+    top: 80px; left: 20px;
+}
+
+
+.bar-for{
+    margin-left: 40px;
+    margin-right: 30px;
+}
+
+
+.cont{
+    margin-top: 14%;
+    margin-bottom: 6%;
+    display: flex;
+    justify-content: center;
+
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(188, 125, 43);
+}
+
+.tech-fi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 50px;
+
+}
+
+
+.tech-fi div{
+    padding: 30px ;
+    font-size: 15px;
+    border-radius: 20px;
+    border-right: 10px;
+    
+    box-shadow: 1px 1px 10px rgb(230, 175, 104),
+              1px 1px 20px  rgb(230, 175, 104);
+
+}
+
+
+.sep{
+    margin-top: 15%;
+    width: 100%;
+    height: 240px;
+    background-color: rgba(55, 60, 63, 0.403);
+}
+
+.contact{
+    color: burlywood;
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    justify-content: baseline;
+    
+    
+}
+.mico{
+     font-size: 12px;
+     margin-top: 2%;
+     display: grid;
+     justify-content: center;
+    align-content: center;
+     
+     
+}
+.mico a{
+    color: rgb(215, 204, 191);
+    
+    
+}
+.mico a:hover{
+    box-shadow: 1px 1px 10px rgb(230, 175, 104),
+    1px 1px 20px  rgb(230, 175, 104);
+
+   
+
+}
+
+footer{
+    color: rgb(123, 123, 112);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media screen and(width:1300px ) {
+    
+
+    .mine .img1{
+        width:70px ;
+    }
+
+    .mine .img2{
+        width: 150px;
+
+    }
+
+
+    .detail h1{
+        font-size: 25px;
+        margin-bottom: 3%;
+    }
+
+    .detail h2{
+        margin-left: 38px;
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 3%;
+        
+    
+    }
+    .detail h2 span{
+        font-size: 20px;
+        font-weight: bolder;
+        
+    }
+    .detail> :nth-child(3) {
+        font-weight: 200;
+        font-size: 10px;
+        margin-left: 190px;
+        margin-bottom: 1%;
+        position: relative;
+        z-index: 20;
+    }
+    .detail> :nth-child(4) {
+    font-weight: 200;
+    font-size: 10px;
+    margin-left: -10px;
+    position: relative;
+    z-index: 20;
+    margin-bottom: 1%;
+    
+    }
+    .detail> :nth-child(5) {
+        font-weight: 200;
+        font-size: 10px;
+        margin-left: 130px;
+        position: relative;
+        z-index: 20;
+    }
+
+
+
+
+
+
+}
